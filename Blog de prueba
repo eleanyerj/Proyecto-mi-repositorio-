@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El blog</title>
+
+</head>
+<body>
+
+    <header>
+        
+        <h1 id="Titulo">Titulo principal</h1>
+
+
+    </header>
+
+     <section>
+
+
+    <article class="post">
+
+        <h2>Titulo del articulo 1 </h2>
+
+        <p>Informacion del articulo 1</p>
+
+        <img src="descarga.jpg" alt="400">
+        
+         <p>Informacion de la imagen</p>
+
+    </article>
+
+    <article class="post">
+
+        <h2>Titulo del articulo 2</h2>
+
+        <p>Subtitulo del articulo 2 </p>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMw2m54CDAXFe1EdsAndmDZzXy6AgIgkdDXg&s" alt="400">
+        
+         <p>Informacion de la imagen</p>
+
+    </article>
+
+ <article class="post">
+
+        <h2>Titulo del articulo 3</h2>
+
+        <p>Subtitulo del articulo 3 </p>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNx7qAX-t4N4dGeNmMhm0sudR_o0QK5tdZcA&s">
+        
+         <p>Informacion de la imagen</p>
+
+    </article>
+
+ <footer>
+
+    <a href="#Titulo">Ir al comienzo</a>
+    <br>
+
+     <a href="
+
+    <p>Copyright El blog del ingenio - Elejota, 2025 </p>
+
+ </footer>
+
+   </section>
+
+  
+</body>
+</html>
