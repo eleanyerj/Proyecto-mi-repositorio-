@@ -1,0 +1,88 @@
+/* Configuración general */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #000000dd;
+    background-color: #f9fff7b0;
+    margin: 0;
+    padding: 30px;
+}
+
+/* 1. Estilo del contenedor principal */
+.navbar {
+  background-color: #333;    /* Color de fondo oscuro */
+  overflow: hidden;          /* Asegura que el contenido no se salga */
+  position: fixed;           /* ¡Importante! Mantiene el menú arriba siempre */
+  top: 0;                    /* Lo pega al borde superior */
+  width: 100%;               /* Que ocupe todo el ancho de la pantalla */
+  z-index: 800;             /* Lo pone por encima de cualquier otro elemento */
+  display: flex;             /* Alinea los elementos en fila fácilmente */
+  justify-content: center;   /* Centra los botones en el medio */
+}
+
+/* 2. Estilo de los enlaces (botones) */
+.navbar a {
+  color: white;              /* Texto en blanco */
+  text-align: center;        /* Centra el texto dentro del botón */
+  padding: 14px 20px;        /* Espacio interno para que parezca un botón */
+  text-decoration: none;     /* Quita la línea subrayada de los links */
+  font-size: 17px;           /* Tamaño de letra legible */
+  transition: 0.3s;          /* Hace que el cambio de color sea suave */
+}
+
+/* 3. Efecto al pasar el mouse (Hover) */
+.navbar a:hover {
+  background-color: #ddd;    /* Cambia el fondo a gris claro */
+  color: black;              /* Cambia el texto a negro */
+}
+
+
+/* Títulos */
+h1 {
+    color: #303840;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+}
+
+/* Tablas con estilo moderno */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #9d8a8a;
+}
+
+th {
+    background-color: #14547f;
+    color: white;
+}
+
+/* Formularios */
+input[type="text"], 
+input[type="password"], 
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Muy importante para el ancho */
+}
+
+input[type="submit"] {
+    background-color: #187740;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #219150;
+}
