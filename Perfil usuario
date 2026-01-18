@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Siceu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-content">
+            <div class="header-title"> PERFIL DE USUARIO </div>
+        </div>
+    </header>
+
+    <main class="login-wrapper">
+        <div class="login-card">
+            <div class="card-header">INICIO DE SESIÓN</div>
+            <div class="card-body">
+                <h2 class="system-title"> SICEU </h2>
+                <form action="#" method="POST" class="login-form">
+                    <div class="form-group">
+                        <label>Tipo Documento</label>
+                        <select class="select-control">
+                            <option>V (Venezolano)</option>
+                            <option>E (Extranjero)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Cédula de Identidad</label>
+                        <input type="text" class="input-control" placeholder="Ej. 12345678" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Contraseña</label>
+                        <input type="password" class="input-control" required>
+                    </div>
+                    <div class="helper-links">
+                        <a href="#">¿Has olvidado tu contraseña, o primera vez?</a>
+                    </div>
+                    <div class="actions-row">
+                        <button type="submit" class="btn btn-ok">CONTINUAR</button>
+                        <button type="button" class="btn btn-cancel">CANCELAR</button>
+                    </div>
+                </form>
+        
+                    
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-text">
+            República Bolivariana de Venezuela <br>
+            <strong> Sistema SICEU 2026</strong> <br>
+            Universidad Nacional Experimental Politécnica de la Fuerza Armada
+        </div>
+    </footer>
+
+</body>
+</html>
