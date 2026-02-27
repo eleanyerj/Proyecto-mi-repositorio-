@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Documento </title>
+
+<link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>   
+     
+
+    <section class="center"> 
+
+    <p>Bienvenido</p>
+
+    </section>
+ 
+    <br><br><br>
+
+
+   <div class="inline-block">inline block</div>
+   <div class="inline-block">inline block 2</div>
+   <div class="inline-block">inline block 3</div>
+
+   <br> <br> <br>
+
+ <div class="Container">
+
+    <article class="column right">3</article>
+
+    <article class="column right">2</article>
+
+    <article class="column right">1</article>
+ 
+
+ </div>
+
+
+<article id="protomp"> Soy un protomp en la pagina</article>
+
+
+<table>
+
+<tr>
+
+ <th>Nombre </th>
+
+ <th>Apellido</th>
+
+</tr>
+
+ <td>Pedro</td>
+
+ <td>Manriquez</td>
+
+<tr>
+
+    <td>Luis</td>
+
+    <td>Perez</td>
+
+</tr>
+
+
+
+<tr>
+     <td>Marcos</td>
+
+     <td>Rodriguez</td>
+
+</tr>
+
+
+
+</table>
+
+
+
+
+
+<ul>
+
+    <li> uno</li>
+    <li> Dos </li>
+    <li> tres </li>
+</ul>
+
+
+   <p class="Bordado">Hola este es el texto que aparecera en la pagina que estoy creando</p>
+
+    <div class="Margen">
+
+     Margen para todo el texto de la pagina
+
+    </div>
+     <article id="Fondo">
+     
+     Hola soy un gato
+     
+
+     </article>
+
+ 
+<h1 id="Titulo">Titulo de la pagina</h1>
+
+
+<p class="Mapa">Mapa parrafo para poder leer la pagina o web </p>
+
+<p class="Texto original">Texto parrafo para poder leer la pagina o web </p>
+
+<p class="especial">Texto parrafo para poder leer la pagina o web </p>
+
+<div>
+    
+<h2>Subtitulo 2</h2>
+    
+<p>Hola mundo</p>
+
+<a target="_blank" href="https://www.youtube.com/">Link de  youtube</a>
+
+</div>
+
+</body>
+</html>
+
+
+
+Codigo del CSS
+
+
+#Titulo {
+       color: rgb(11, 11, 161);
+       font-size: 25px;
+       border: 12px outset rgb(72, 28, 218);
+       padding: 8px;
+       text-align: center;
+       
+       }
+
+.Mapa {
+       color: rgb(255, 162, 0);
+       
+       }
+
+.Texto {
+       color: rgb(255, 12, 134);
+       }
+
+      .especial {
+       color: rgb(114, 12, 6);
+       }
+
+div p {
+       color: rgb(0, 0, 0);
+       
+
+       }
+
+     div h2 {
+       color: rgb(2, 129, 38);
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       }
+
+       * {
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          
+             }
+
+
+    #Fondo{
+            background-color: rgb(148, 9, 9);
+            height: 300px;
+            opacity: 1;
+            background-image: url(Gato.webp);
+            background-size: 400px ;
+            font-size: 30px;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 30px;
+            border: solid 4px rgb(0, 0, 0);
+            }
+
+
+            .Margen {
+       background-color: rgb(136, 94, 60);
+       margin: 30px;
+       padding: 30px;
+       font-size: 40px;
+       border: solid 4px black;
+       width: 1000px;
+       height: 100px;
+       overflow: visible;
+       outline: 2px solid black;
+       text-align: center;
+       }
+
+
+.Bordado {
+        text-align: justify;
+        font-size: 50px;
+        color: rgb(94, 82, 26);
+        text-decoration: underline;
+        text-shadow: 5px 2px 5px gold;
+       }
+
+       a:link {
+        color: blue;
+        float: right;
+        font-size: 21px;
+
+         ;
+       }
+
+       a:visited {
+         
+               color: blueviolet;
+
+                }
+
+       a:hover {
+        
+        color: red;
+
+       }
+
+
+      a:active {
+        
+          color: rgb(151, 129, 7);
+
+       }
+
+
+
+    ul {
+        
+        background-color: blue;
+       list-style-type: circle;
+       padding-left: 0;
+       list-style-position: inside;
+       }
+
+       table {
+           
+             width: 50%;
+             border-collapse: collapse;
+
+             }
+
+
+             th,td{
+                    border: solid 1px rgb(0, 0, 0);
+                   padding: 5px;
+
+                        }
+
+
+
+               th {
+        
+                 background-color: rgb(150, 13, 13);
+                 color: aliceblue;
+              text-align: left;
+
+                  }
+                 
+
+                  tr:hover{
+                          
+                          background-color: rgb(106, 106, 151);
+                          cursor: pointer;
+                        }
+                
+
+                        tr:nth-child(even) { 
+                           
+                     background-color: rgb(255, 207, 15);
+                
+
+                      }
+
+
+                    #protomp{ 
+                    position: relative;
+                    left: 100;
+                    top: 100;
+                      }
+                      
+
+                 .right { 
+                        float: right;
+             
+                      }
+
+                    .column { 
+                     width: 33.3%;
+                     margin:0;
+                     padding: 10 0px;
+                     font-size: 40px;
+                     height: 200px;
+                     
+                      }
+              
+          
+                .inline-block{
+                             display: inline;
+                             background-color: rgb(100, 0, 73);
+                             color: rgb(255, 255, 255);
+                             padding: 25px;
+                             margin: 95px;
+                            }
+
+
+
+                     .center {
+                             padding: 0 50px;
+                              text-align: center;
+                             width: 100px;
+                            margin: 0 auto;
+                           background-color: rgb(100, 0, 73);
+                           font-size: 20px;
+                           color: aliceblue;
+
+                            }
+
+
+ 
+
